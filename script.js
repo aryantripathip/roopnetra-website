@@ -90,15 +90,12 @@ const portfolioData = [
 const portfolioGrid = document.getElementById('portfolioGrid');
 const filterBtns = document.querySelectorAll('.filter-btn');
 
-function renderPortfolio(filter = 'all') {
+function renderPortfolio(filter = 'ngo') {
     portfolioGrid.innerHTML = '';
     
-    let filteredData = portfolioData;
-    if (filter !== 'all') {
-        filteredData = portfolioData.filter(item => item.category === filter);
-    }
+    let filteredData = portfolioData.filter(item => item.category === filter);
 
-    // Standard rectangular grid rendering (masonry logic removed per user request)
+    // Standard rectangular grid rendering
     filteredData.forEach((item, index) => {
         const div = document.createElement('div');
         div.className = 'portfolio-item';

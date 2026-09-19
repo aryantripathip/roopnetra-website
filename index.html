@@ -51,7 +51,10 @@
     <!-- 2. Hero (Cinematic Full Width) -->
     <header class="hero">
         <div class="hero-bg">
-            <img src="assets/images/hero-cover-final-2.jpg" alt="Roopnetra Production Campaign" class="hero-image">
+            <picture>
+                <source media="(max-width: 768px)" srcset="assets/images/hero-mobile-studio.jpg">
+                <img src="assets/images/hero-cover-final-2.jpg" alt="Roopnetra Production Campaign" class="hero-image">
+            </picture>
             <div class="hero-scrim"></div>
         </div>
         <div class="container hero-content">
@@ -163,10 +166,9 @@
             <h2 class="section-title">Our Work</h2>
             
             <div class="portfolio-controls">
-                <button class="filter-btn active" data-filter="all">All Work</button>
-                <button class="filter-btn" data-filter="ngo">NGO & Government</button>
-                <button class="filter-btn" data-filter="office">Corporate & Schools</button>
-                <button class="filter-btn" data-filter="brand">Ad Shoots</button>
+                <button class="filter-btn active" data-filter="ngo">Nukkad Natak for Government Agencies & NGOs</button>
+                <button class="filter-btn" data-filter="office">Nukkad Natak for Corporate Offices & Schools</button>
+                <button class="filter-btn" data-filter="brand">Ad Shoots for Brands</button>
                 <button class="filter-btn" data-filter="theatre">Theatre Plays</button>
             </div>
 
