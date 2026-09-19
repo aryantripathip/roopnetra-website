@@ -1,0 +1,16 @@
+{
+  "name": "Roopnetra Production Enterprises",
+  "short_name": "Roopnetra",
+  "description": "India's leading creative production house for Nukkad Natak, Films & Brand Promotions.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF7F2",
+  "theme_color": "#0F0F0F",
+  "icons": [
+    {
+      "src": "/images/logo/roopnetra-logo.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ]
+}
